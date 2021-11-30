@@ -17,6 +17,8 @@
             </tr>
         @endforeach
     </table>
+    <br>
+    <a class="new-article" href="/articles/create">Create New Article</a>
 </x-layout>
 
 
