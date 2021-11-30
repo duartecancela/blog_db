@@ -1,0 +1,18 @@
+body {
+    font-family: Arial;
+}
+
+.header {
+    background-color: lightgrey;
+    padding: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.footnote {
+    background-color: grey;
+    padding: 5px;
+    margin-top: 25px;
+    font-size: x-small;
+    text-align: center;
+}

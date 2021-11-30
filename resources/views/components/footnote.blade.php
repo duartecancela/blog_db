@@ -1,3 +1,3 @@
-<div>
-    <h1>This is the footer</h1>
+<div class="footnote">
+    <h1>site design / IPBeja Students © 2020 ESTIG / IPBeja all rights reserved</h1>
 </div>
