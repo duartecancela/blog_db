@@ -132,8 +132,9 @@ class ArticlesController extends Controller
      */
     public function destroy($id)
     {
-        //Simulation of removing an article
-        unset($this->articles[$id]);
-        return view('articles.index',['articles'=>$this->articles]);
+        $article = Article::where('id',$id)->first();
+        $article->delete();
+        $articles = Article::all();
+        return view('articles.index',['articles'=>$articles]);
     }
 }

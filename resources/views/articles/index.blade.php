@@ -13,7 +13,7 @@
                 <td>{{ $value->text }}</td>
                 <td>{{ $value->picture }}</td>
                 <td><a href="/articles/{{$value->id}}/edit">Alterar</a></td>
-                <td><a href="/">Remover</a></td>
+                <td><a href="/articles/{{$value->id}}/destroy">Remover</a></td>
             </tr>
         @endforeach
     </table>
